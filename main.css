@@ -1,0 +1,62 @@
+.title{
+  font-size: 100px;
+}
+body, html {
+  height: 130%;
+  margin: 0;
+}
+
+.bgimg {
+  
+  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.775), rgba(95, 95, 95, 0.892)), url('./images/Photo.jpeg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Tahoma", Courier, monospace;
+  font-size: 30px;
+}
+
+.topleft {
+  position: relative;
+  top: 0;
+  left: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.bottomleft {
+  position: relative;
+  bottom: 0;
+  left: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.middle {
+  
+  position: relative;
+  
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+.centered-description{
+  text-align: center;
+  padding: 0px 30% 60px 30%;
+}
+#overlay {
+  position: fixed; 
+  
+  width: 100%; 
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.857);
+  z-index: 2; 
+  cursor: pointer; 
+}
